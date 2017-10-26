@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GroceryShopManagement</string>
+    <string-array name="status">
+        <item>Active</item>
+        <item>Inactive</item>
+    </string-array>
+</resources>

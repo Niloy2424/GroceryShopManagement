@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context="com.example.niloychowdhury.groceryshopmanagement.Activity.StockActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Name"
+
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/categoryTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1.2"
+            android:text="Category"
+            android:textColor="@color/listItemHaddingColour"
+            android:gravity="center"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/stockTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+
+            android:text="Stock"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="17sp"
+            android:gravity="center"/>
+
+
+
+        <TextView
+            android:id="@+id/statusTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="17sp" />
+    </LinearLayout>
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/stockLV"></ListView>
+</LinearLayout>

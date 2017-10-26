@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/picc"
+    tools:context="com.example.niloychowdhury.groceryshopmanagement.Activity.ProductsActivity">
+
+    <Button
+        android:onClick="catagaryButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="18dp"
+    android:textSize="20sp"
+    android:text="CATAGARY"
+        android:background="@drawable/productsbutton_bg"/>
+    <Button
+        android:onClick="subCatagrayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="18dp"
+        android:textSize="20sp"
+        android:text="Sub CATAGARY"
+        android:background="@drawable/productsbutton_bg"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

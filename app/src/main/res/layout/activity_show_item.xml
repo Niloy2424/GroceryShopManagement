@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context="com.example.niloychowdhury.groceryshopmanagement.Activity.ShowItemActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/subNameTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textColor="@color/listItemHaddingColour"
+            android:gravity="center"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/cTV"
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Category"
+
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/priceTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="Price"
+            android:textColor="@color/listItemHaddingColour"
+            android:gravity="center"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/stockTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Stock"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="17sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/saleTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Sale"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/subStatusTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Status"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/itemsLV"></ListView>
+</LinearLayout>

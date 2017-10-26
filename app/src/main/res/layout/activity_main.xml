@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="18dp"
+    android:background="@drawable/picc"
+    tools:context="com.example.niloychowdhury.groceryshopmanagement.Activity.MainActivity">
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/button_bg"
+        android:onClick="productsButton"
+        android:padding="10dp"
+        android:paddingBottom="30dp"
+        android:text="Products"
+        android:textColor="#ffff"
+        android:textSize="30dp" />
+
+    <Button
+        android:onClick="pointOfSaleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="point of sale"
+        android:padding="10dp"
+        android:background="@drawable/button_bg"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:onClick="toadysReportButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Today's Report"
+        android:padding="10dp"
+        android:background="@drawable/button_bg"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/button_bg"
+        android:onClick="stackButton"
+        android:padding="10dp"
+        android:text="Stack"
+        android:textColor="#ffff"
+        android:textSize="30dp"
+        />
+</LinearLayout>

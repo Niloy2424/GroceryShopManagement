@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/subNameTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name"
+            android:textColor="@color/listItemHaddingColour"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/cTV"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="21"
+
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/priceTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:text="10000"
+            android:textColor="@color/listItemHaddingColour"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/stockTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="500"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="13sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/saleTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="300"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/subStatusTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Active"
+            android:textColor="@color/listItemHaddingColour"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+</LinearLayout>
